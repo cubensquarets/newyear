@@ -1,0 +1,9 @@
+---
+- name: install package across all machines
+  hosts: all
+  become: true
+  tasks:
+  - name: install apache package
+    apt:
+     name: apache2
+     state: absent
