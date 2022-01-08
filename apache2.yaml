@@ -6,4 +6,4 @@
   - name: install apache package
     apt:
      name: apache2
-     state: absent
+     state: latest
