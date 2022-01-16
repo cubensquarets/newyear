@@ -8,4 +8,4 @@
      name: apache2
      state: latest
      dep: all
-j
+     pack: list
