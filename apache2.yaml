@@ -9,3 +9,4 @@
      state: latest
      dep: all
      pack: list
+     state: restarted
