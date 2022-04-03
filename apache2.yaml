@@ -10,3 +10,7 @@
      dep: all
      pack: list
      state: restarted
+  - name: enable apache package
+    service:
+       name: apache2
+       enabled: yes
